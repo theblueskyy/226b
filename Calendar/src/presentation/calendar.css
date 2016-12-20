@@ -1,0 +1,28 @@
+.calendar-grid {
+	-fx-hgap: 21 ;
+	-fx-vgap: 5 ;
+	-fx-padding: 13 ;
+}
+
+.calendar-header {
+	-fx-alignment: center ;
+	-fx-font-size: 18pt ;
+	-fx-font-weight: bold ;
+}
+
+.calendar-cell {
+	-fx-padding: 4 ;
+	-fx-font-size: 17pt ;
+	-fx-alignment: center ;
+}
+
+.calendar-cell:before-display-month, .calendar-cell:after-display-month {
+	-fx-opacity: 0.4 ;
+}
+
+.calendar-header-cell {
+	-fx-padding: 4 ;
+	-fx-font-size: 13pt ;
+	-fx-alignment: center ;
+	-fx-font-weight: bold ;
+}
