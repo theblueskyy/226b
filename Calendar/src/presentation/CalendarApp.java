@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class CalendarViewTest extends Application 
+public class CalendarApp extends Application 
 {
 
 	@Override
@@ -14,7 +14,7 @@ public class CalendarViewTest extends Application
  	{
         Parent root = FXMLLoader.load(getClass().getResource("calendar.fxml"));
         primaryStage.setScene(new Scene(root));
-        primaryStage.setTitle("Hangman");
+        primaryStage.setTitle("Calendar");
         primaryStage.setResizable(false);
         primaryStage.show();
     }
