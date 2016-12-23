@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="1042.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="presentation.CalendarController">
+  <children>
+    <GridPane layoutX="176.0" layoutY="14.0" prefHeight="612.0" prefWidth="866.0">
+      <children>
+        <TabPane fx:id="tabPane" prefHeight="306.0000999999975" prefWidth="851.9998779296875" tabClosingPolicy="UNAVAILABLE" tabMaxWidth="58.0" tabMinWidth="58.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <tabs>
+            <Tab text="Januar">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="Februar">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="März">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="231.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="April">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="231.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="Mai">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="231.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="Juni">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="231.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="Juli">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                    <ImageView fitHeight="550.0" fitWidth="404.0" layoutX="231.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </Pane>
+              </content>
+            </Tab>
+            <Tab text="August">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="September">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Oktober">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="November">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Dezember">
+              <content>
+                <Pane prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <GridPane layoutX="0.0" layoutY="208.0" prefHeight="202.0" prefWidth="163.0">
+      <children>
+        <MenuButton mnemonicParsing="false" prefHeight="32.0" text="Choose Template" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="BOTTOM">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+          </items>
+        </MenuButton>
+        <ColorPicker prefHeight="32.0" prefWidth="120.0" promptText="Choose Color" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="TOP" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="81.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <ImageView fitHeight="163.0" fitWidth="163.0" layoutX="1.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/nana.schuetz/Downloads/calendar.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
